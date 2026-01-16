@@ -24,8 +24,8 @@ import java.util Scanner;
         System.out.println("Enter the price of the Fifth Product ");
         float priceProduct05 = scanner.nextFloat();
 
-        totalPrice = priceProduct01 + priceProduct02 + priceProduct01 + priceProduct02 + priceProduct01
-        finalPrice = totalPrice - (totalPrice * .10)
+        totalPrice = priceProduct01 + priceProduct02 + priceProduct01 + priceProduct02 + priceProduct01;
+        finalPrice = totalPrice - (totalPrice * .10);
 
         System.out.println("The final price with the discount of 10% added is: $"+finalPrice);
 
