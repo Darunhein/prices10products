@@ -27,7 +27,7 @@ import java.util Scanner;
         totalPrice = priceProduct01 + priceProduct02 + priceProduct01 + priceProduct02 + priceProduct01
         finalPrice = totalPrice - (totalPrice * .10)
 
-        
+        System.out.println("The final price with the discount of 10% added is: $"+finalPrice);
 
 
         }
