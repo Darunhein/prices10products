@@ -5,9 +5,9 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        final float DISCOUNT = .10;
-        float totalPrice;
-        float finalPrice;
+        final double DISCOUNT = .90;
+        double totalPrice;
+        double finalPrice;
 
         System.out.println("Enter the price of the first Product ");
         float priceProduct01 = scanner.nextFloat();
@@ -24,8 +24,8 @@ import java.util.Scanner;
         System.out.println("Enter the price of the Fifth Product ");
         float priceProduct05 = scanner.nextFloat();
 
-        totalPrice = priceProduct01 + priceProduct02 + priceProduct01 + priceProduct02 + priceProduct01;
-        finalPrice = totalPrice - (totalPrice * .10);
+        totalPrice = priceProduct01 + priceProduct02 + priceProduct03 + priceProduct04 + priceProduct05;
+        finalPrice = totalPrice * .90;
 
         System.out.println("The final price with the discount of 10% added is: $"+finalPrice);
 
